@@ -130,11 +130,6 @@ u_char MFRC522_Request(u_char, u_char*);
 u_char MFRC522_ToCard(u_char, u_char*, u_char, u_char*, uint*);
 u_char MFRC522_Anticoll(u_char*);
 void CalulateCRC(u_char*, u_char, u_char*);
-u_char MFRC522_SelectTag(u_char*);
-u_char MFRC522_Auth(u_char, u_char, u_char*, u_char*);
 u_char MFRC522_Read(u_char, u_char*);
-u_char MFRC522_Write(u_char, u_char*);
-void MFRC522_Halt();
-void MFRC522_StopCrypto1(void);
 
 #endif /* MFRC522_H_ */
